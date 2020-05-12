@@ -14,4 +14,4 @@ Inspired by "[What terminal is Felix using](https://github.com/KrauseFx/what-ter
 By using HomeBrew to take care of most stuff, updates are easy and painless. Besides this, by sharing these files, I allow anyone (including myself, in the future) to just grab them and have the same experience as me today. This would have never been possible with the App Store, which is completely broken in Catalina.
 
 #### TODO:
-- I would like an easy way to deal with file extensions (open with..). Some apps, like XCode, set the default for itself for many many formats. It is too boring to manually configure every possible file extension to open VSCode instead of anything else.
+- I would like an easy way to deal with file extensions (open with..). Some apps, like Xcode, set the default for itself for many many formats. It is too boring to manually configure every possible file extension to open VSCode instead of anything else.
