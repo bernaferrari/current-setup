@@ -2,16 +2,18 @@ aerial
 alacritty
 alfred
 android-platform-tools
-caffeine
+blurred
 db-browser-for-sqlite
 discord
 flux
+font-ibm-plex
+font-jetbrains-mono
 gitkraken
 handbrake
-hyper
 intel-haxm
 iterm2
 java
+microsoft-teams
 openinterminal-lite
 osxfuse
 r
@@ -25,5 +27,6 @@ the-unarchiver
 timing
 tower
 transmission
+virtualbox
 visual-studio-code
 vlc
