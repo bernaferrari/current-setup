@@ -1,0 +1,70 @@
+{
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "editor.multiCursorModifier": "alt",
+  "editor.fontLigatures": true,
+  "dart.flutterCreateAndroidLanguage": "kotlin",
+  "dart.flutterCreateIOSLanguage": "swift",
+  "dart.flutterHotRestartOnSave": true,
+  "dart.previewFlutterUiGuides": true,
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.factorypath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/node_modules/**": true
+  },
+  "files.autoSave": "afterDelay",
+  "files.associations": {
+    "*.kts": "kotlinscript"
+  },
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "explorer.confirmDragAndDrop": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.colorTheme": "Horizon",
+  "editor.fontFamily": "'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontSize": 13,
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "explorer.confirmDelete": false,
+  "java.semanticHighlighting.enabled": true,
+  "python.pythonPath": "/usr/local/bin/python3",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "git.enableSmartCommit": true,
+  "python.languageServer": "Pylance",
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "python.dataScience.askForKernelRestart": false,
+  "[xml]": {
+    "editor.defaultFormatter": "redhat.vscode-xml"
+  },
+  "dart.debugExternalLibraries": true,
+  "dart.debugSdkLibraries": false,
+  "editor.quickSuggestions": true,
+  "editor.suggest.localityBonus": true,
+  "editor.snippetSuggestions": "bottom",
+  "editor.suggest.filterGraceful": true,
+  "editor.suggest.snippetsPreventQuickSuggestions": true,
+  "workbench.iconTheme": "vscode-icons"
+}
