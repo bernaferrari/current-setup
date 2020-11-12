@@ -1,6 +1,5 @@
 ack
 adns
-ant
 autoconf
 automake
 bat
@@ -10,7 +9,6 @@ clojure
 cmatrix
 coreutils
 cowsay
-dart
 deno
 docbook
 docbook-xsl
@@ -20,11 +18,14 @@ fontconfig
 fortune
 freetype
 fswatch
+gcc
 gdb
 gdbm
 gettext
+gh
 ghostscript
 git
+git-delta
 git-lfs
 glib
 gmp
@@ -33,12 +34,14 @@ gradle
 guile
 hardlink-osx
 htop
+hyperfine
 icu4c
 ideviceinstaller
 ilmbase
 imagemagick
 ios-deploy
 ipython
+isl
 jpeg
 jupyterlab
 kotlin
@@ -55,6 +58,7 @@ libidn2
 libimobiledevice
 libksba
 liblqr
+libmpc
 libomp
 libplist
 libpng
@@ -70,6 +74,7 @@ libyaml
 libzip
 little-cms2
 llvm
+mpfr
 ncurses
 neofetch
 ninja
@@ -88,7 +93,9 @@ pkg-config
 pokemonsay
 pyenv
 python@3.8
+python@3.9
 rbenv
+re2c
 readline
 repo
 ripgrep
@@ -98,6 +105,7 @@ ruby-build
 rust
 screenresolution
 shared-mime-info
+smartmontools
 sqlite
 sshfs
 swiftlint

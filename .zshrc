@@ -12,8 +12,8 @@ ZSH_THEME="spaceship" # robbyrussell
 
 plugins=(zsh-autosuggestions)
 
-alias upd="brew upgrade && flutter upgrade --force && brew cask upgrade --greedy"
-alias updcask="brew cask upgrade --greedy"
+alias upd="brew upgrade --greedy && flutter upgrade --force"
+alias updcask="brew upgrade --cask --greedy"
 
 alias zshrc="code ~/.zshrc"
 alias bundle!="bundle install && rake install"
@@ -29,12 +29,10 @@ alias gpush="git push"
 alias gbranch="git checkout -b"
 alias gclone="git clone"
 alias g="gittower ."
-alias s="subl ."
 alias o="open ."
 alias server="python -m SimpleHTTPServer"
 alias python="/usr/local/bin/python3"
 alias pip="/usr/local/bin/pip3"
-
 
 # Download YouTube videos
 alias youtube="youtube-dl"
@@ -100,7 +98,7 @@ source $ZSH/oh-my-zsh.sh
 if [[ -n $SSH_CONNECTION ]]; then
   export EDITOR='vim'
 else
-  export EDITOR='subl'
+  export EDITOR='code'
 fi
 
 # Go to the root of the current git project, or just go one folder up

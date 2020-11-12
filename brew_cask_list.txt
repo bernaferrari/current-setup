@@ -14,6 +14,8 @@ intel-haxm
 iterm2
 java
 microsoft-teams
+muzzle
+notion
 openinterminal-lite
 osxfuse
 r
@@ -21,8 +23,6 @@ rectangle
 rstudio
 slack
 sublime-merge
-sublime-text
-teamviewer
 the-unarchiver
 timing
 tower
