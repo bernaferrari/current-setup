@@ -1,5 +1,4 @@
 aerial
-alacritty
 alfred
 android-platform-tools
 blurred
@@ -8,7 +7,6 @@ discord
 flux
 font-ibm-plex
 font-jetbrains-mono
-gitkraken
 handbrake
 intel-haxm
 iterm2
@@ -20,7 +18,6 @@ openinterminal-lite
 osxfuse
 r
 rectangle
-rstudio
 slack
 sublime-merge
 the-unarchiver

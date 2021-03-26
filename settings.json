@@ -54,17 +54,25 @@
   "python.languageServer": "Pylance",
   "[markdown]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "python.dataScience.askForKernelRestart": false,
+},
   "[xml]": {
     "editor.defaultFormatter": "redhat.vscode-xml"
   },
   "dart.debugExternalLibraries": true,
-  "dart.debugSdkLibraries": false,
+  "dart.debugSdkLibraries": true,
   "editor.quickSuggestions": true,
   "editor.suggest.localityBonus": true,
   "editor.snippetSuggestions": "bottom",
   "editor.suggest.filterGraceful": true,
   "editor.suggest.snippetsPreventQuickSuggestions": true,
-  "workbench.iconTheme": "vscode-icons"
+  "workbench.iconTheme": "vscode-icons",
+"editor.scrollBeyondLastLine": false,
+"jupyter.askForKernelRestart": false,
+"jupyter.alwaysTrustNotebooks": true,
+"workbench.editorAssociations": [
+  {
+    "viewType": "jupyter.notebook.ipynb",
+    "filenamePattern": "*.ipynb"
+  }
+]
 }

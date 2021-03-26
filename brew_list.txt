@@ -1,5 +1,6 @@
 ack
 adns
+aom
 autoconf
 automake
 bat
@@ -12,6 +13,7 @@ cowsay
 deno
 docbook
 docbook-xsl
+fastlane
 fd
 flutter
 fontconfig
@@ -62,6 +64,7 @@ libmpc
 libomp
 libplist
 libpng
+libsodium
 libssh2
 libtasn1
 libtiff
@@ -74,6 +77,7 @@ libyaml
 libzip
 little-cms2
 llvm
+mpdecimal
 mpfr
 ncurses
 neofetch
@@ -91,10 +95,10 @@ pcre
 pcre2
 pkg-config
 pokemonsay
+protobuf
 pyenv
 python@3.8
 python@3.9
-rbenv
 re2c
 readline
 repo
@@ -102,13 +106,14 @@ ripgrep
 rlwrap
 ruby
 ruby-build
+ruby@2.7
 rust
 screenresolution
 shared-mime-info
 smartmontools
 sqlite
 sshfs
-swiftlint
+tcl-tk
 testdisk
 the_silver_searcher
 tree
