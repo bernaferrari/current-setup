@@ -1,12 +1,31 @@
 {
-  "git.autofetch": true,
-  "git.confirmSync": false,
   "editor.multiCursorModifier": "alt",
   "editor.fontLigatures": true,
+  "editor.suggestSelection": "first",
+  "editor.fontFamily": "'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontSize": 13,
+  "editor.inlineSuggest.enabled": true,
+  "editor.wordWrap": "bounded",
+  "editor.quickSuggestions": true,
+  "editor.suggest.localityBonus": true,
+  "editor.snippetSuggestions": "bottom",
+  "editor.suggest.filterGraceful": true,
+  "editor.suggest.snippetsPreventQuickSuggestions": true,
+  "editor.scrollBeyondLastLine": false,
+  "workbench.colorTheme": "Horizon",
+  "workbench.iconTheme": "vscode-icons",
+  "security.workspace.trust.enabled": false,
+  "security.workspace.trust.emptyWindow": false,
+  "terminal.integrated.copyOnSelection": true,
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
+  "git.confirmSync": false,
   "dart.flutterCreateAndroidLanguage": "kotlin",
   "dart.flutterCreateIOSLanguage": "swift",
   "dart.flutterHotRestartOnSave": true,
   "dart.previewFlutterUiGuides": true,
+  "dart.debugExternalLibraries": true,
+  "dart.debugSdkLibraries": true,
   "files.exclude": {
     "**/.classpath": true,
     "**/.factorypath": true,
@@ -18,13 +37,9 @@
   "files.associations": {
     "*.kts": "kotlinscript"
   },
-  "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "explorer.confirmDragAndDrop": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "workbench.colorTheme": "Horizon",
-  "editor.fontFamily": "'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace",
-  "editor.fontSize": 13,
   "[javascript]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
@@ -37,9 +52,6 @@
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "explorer.confirmDelete": false,
-  "java.semanticHighlighting.enabled": true,
-  "python.pythonPath": "/usr/local/bin/python3",
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -49,30 +61,28 @@
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "git.enableSmartCommit": true,
+  "explorer.confirmDelete": false,
+  "java.semanticHighlighting.enabled": true,
+  "redhat.telemetry.enabled": false,
+  "python.pythonPath": "/usr/local/bin/python3",
+  "python.defaultInterpreterPath": "/usr/local/bin/python3",
   "python.languageServer": "Pylance",
+  "jupyter.askForKernelRestart": false,
+  "jupyter.alwaysTrustNotebooks": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
   "[markdown]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-},
+  },
   "[xml]": {
     "editor.defaultFormatter": "redhat.vscode-xml"
   },
-  "dart.debugExternalLibraries": true,
-  "dart.debugSdkLibraries": true,
-  "editor.quickSuggestions": true,
-  "editor.suggest.localityBonus": true,
-  "editor.snippetSuggestions": "bottom",
-  "editor.suggest.filterGraceful": true,
-  "editor.suggest.snippetsPreventQuickSuggestions": true,
-  "workbench.iconTheme": "vscode-icons",
-"editor.scrollBeyondLastLine": false,
-"jupyter.askForKernelRestart": false,
-"jupyter.alwaysTrustNotebooks": true,
-"workbench.editorAssociations": [
-  {
-    "viewType": "jupyter.notebook.ipynb",
-    "filenamePattern": "*.ipynb"
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter.notebook.ipynb"
+  },
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": false,
+    "plaintext": true,
+    "markdown": false
   }
-]
 }
