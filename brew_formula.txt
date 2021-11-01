@@ -9,6 +9,7 @@ bfg
 boost
 brotli
 c-ares
+ca-certificates
 clojure
 cmatrix
 coreutils
@@ -34,6 +35,7 @@ gettext
 gflags
 gh
 ghostscript
+giflib
 git
 git-delta
 git-lfs
@@ -57,6 +59,7 @@ isl
 jbig2dec
 jemalloc
 jpeg
+jpeg-xl
 jupyterlab
 kotlin
 ktlint
@@ -75,6 +78,7 @@ libimobiledevice
 libksba
 liblqr
 libmpc
+libnghttp2
 libomp
 libplist
 libpng
@@ -87,6 +91,7 @@ libunistring
 libusb
 libusbmuxd
 libuv
+libvmaf
 libxml2
 libyaml
 libzip
@@ -94,6 +99,7 @@ little-cms2
 llvm
 lz4
 m4
+macos-term-size
 mpdecimal
 mpfr
 ncurses
@@ -101,6 +107,7 @@ neofetch
 nghttp2
 ninja
 node
+node@14
 npth
 openexr
 openjdk
@@ -116,6 +123,7 @@ pkg-config
 pokemonsay
 protobuf
 pyenv
+python@3.10
 python@3.8
 python@3.9
 re2c

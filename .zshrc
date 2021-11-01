@@ -132,6 +132,18 @@ function up() {
 
 
 # Init rbenv
-export PATH="/usr/local/sbin:$PATH"
-export PATH="/usr/local/opt/ruby/bin:$PATH"
+# export PATH="/usr/local/sbin:$PATH"
+# export PATH="/usr/local/opt/ruby/bin:$PATH"
+
 export RUBY_CONFIGURE_OPTS="--with-openssl-dir=$(brew --prefix openssl@1.1)"
+
+# Dart
+export PATH="$PATH":"$HOME/.pub-cache/bin"
+export PATH="$PATH:$HOME/.pub-cache/bin"export PATH="/usr/local/opt/llvm/bin:$PATH"
+
+# Ruby
+export PATH="/usr/local/opt/ruby/bin:$PATH"
+
+# Flutter
+alias detective="flutter pub global run detective"
+alias build_runner="flutter pub run build_runner build --delete-conflicting-outputs"

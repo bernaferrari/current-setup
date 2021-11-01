@@ -5,7 +5,6 @@
   "editor.fontFamily": "'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace",
   "editor.fontSize": 13,
   "editor.inlineSuggest.enabled": true,
-  "editor.wordWrap": "bounded",
   "editor.quickSuggestions": true,
   "editor.suggest.localityBonus": true,
   "editor.snippetSuggestions": "bottom",
@@ -62,13 +61,11 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "explorer.confirmDelete": false,
-  "java.semanticHighlighting.enabled": true,
   "redhat.telemetry.enabled": false,
   "python.pythonPath": "/usr/local/bin/python3",
   "python.defaultInterpreterPath": "/usr/local/bin/python3",
   "python.languageServer": "Pylance",
   "jupyter.askForKernelRestart": false,
-  "jupyter.alwaysTrustNotebooks": true,
   "typescript.updateImportsOnFileMove.enabled": "always",
   "[markdown]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -81,8 +78,9 @@
   },
   "github.copilot.enable": {
     "*": true,
-    "yaml": false,
+    "yaml": true,
     "plaintext": true,
     "markdown": false
-  }
+  },
+  "debug.focusWindowOnBreak": false
 }
